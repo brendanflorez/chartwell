@@ -1,0 +1,45 @@
+define
+
+concept sub entity,
+  owns name,
+  plays causality:cause,
+  plays causality:effect,
+  plays similarity:concept-1,
+  plays similarity:concept-2,
+  plays concept-dataset:concept;
+
+name sub attribute,
+  value string;
+
+dataset sub entity,
+  owns url,
+  owns name,
+  plays concept-dataset:dataset;
+
+url sub attribute,
+  value string;
+
+causality sub relation,
+  relates cause,
+  relates effect,
+  owns direction,
+  owns confidence;
+
+direction sub attribute,
+  value string;
+
+similarity sub relation,
+  relates concept-1,
+  relates concept-2,
+  owns closeness,
+  owns confidence;
+
+closeness sub attribute,
+  value double;
+
+confidence sub attribute,
+  value double;
+
+concept-dataset sub relation,
+  relates concept,
+  relates dataset;
