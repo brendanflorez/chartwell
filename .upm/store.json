@@ -1,0 +1,1 @@
+{"version":2,"languages":{"nodejs-npm":{"specfileHash":"b5cd4cf659d5baf93abeea483612a3f4","lockfileHash":"9f6b700dd2b5858651093b200330c554","guessedImports":["typedb-client","body-parser","webpack","react","axios","express","cors","dotenv","openai","webpack-dev-middleware","react-dom","html-webpack-plugin"],"guessedImportsHash":"15884a2aa047c55436fbf77827f9e47a"}}}
