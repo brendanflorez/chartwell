@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 //import { mergeDuplicateConcepts } from '../../../database/typeDBUtils';
-
+//test comment
 const CausalMaps = () => {
   const [inputValue, setInputValue] = useState('');
   const [causalMaps, setCausalMaps] = useState([]);
